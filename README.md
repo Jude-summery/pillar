@@ -1,2 +1,2 @@
 # pillar
-A framework,which based on React.js
+A framework,which based on Dva

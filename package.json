@@ -1,0 +1,25 @@
+{
+  "name": "pillar",
+  "version": "1.0.0",
+  "description": "A framework,which based on Dva",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jude-summery/pillar.git"
+  },
+  "author": "Jude-summery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jude-summery/pillar/issues"
+  },
+  "homepage": "https://github.com/Jude-summery/pillar#readme",
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
