@@ -1,14 +1,13 @@
-import { cube } from './math.js';
+import React from 'react'
+import ReactDom from 'react-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
+import Nav from './components/Nav'
+import getRouter from './router'
 
-function component() {
-    var element = document.createElement('pre')
-
-    element.innerHTML = [
-      'Hello webpack!',
-      '5 cubed is equal to ' + cube(5)
-    ].join('\n\n')
-
-    return element
-  }
-  
-document.body.appendChild(component());
+ReactDom.render(
+  <Router>
+      <Nav/>
+      {getRouter()}
+  </Router>,
+  document.getElementById('app')
+)
